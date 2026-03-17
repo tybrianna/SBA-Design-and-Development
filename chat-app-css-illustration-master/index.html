@@ -30,57 +30,144 @@
   </style>
 </head>
 
-<body>
-  <div class="container" style="justify-content:space-between;">
+<body style="margin: 15px; padding: 15px; box-sizing: border-box; min-height: 11vh;">
 
-    <header id="header">
+  <div style="margin:0; padding:0; overflow:hidden;">
 
-      <div class="left">
-        <img src="./images/avatar.jpg" alt="Avatar" class="avatar" style="border-radius: 100%;">
+    <div class="container-1"
+      style="display:flex; align-items:center; justify-content:center; gap:120px; min-height:100vh; position:relative;">
+
+      <div style="
+      position:absolute;
+      left:-120px;
+      top:0;
+      width:420px;
+      height:700px;
+      background:linear-gradient(180deg, #d946ef, #7c3aed);
+      border-radius:0 0 220px 220px;
+      z-index:0;">
       </div>
 
-      <div class="right">
-        <h1 style=" color: white; font-size: larger; font-weight: 600;">Samuel Green</h1>
-        <p style="font-size: small; color: hsl(206, 6%, 79%); font-weight: 100;">Available to Walk</p>
+      <div style="
+      width:280px;
+      height:580px;
+      background:white;
+      border-radius:35px;
+      box-shadow:0 20px 50px rgba(0,0,0,.15);
+      padding:15px;
+      position:relative;
+      z-index:2;">
+
+
+        <header id="header" style="padding: 18px 15px; border-radius: 25px 25px 10px 10px; margin-top: 10px;">
+
+          <div class="left" style="display: flex; align-items: center; gap: 10px;">
+            <img src="./images/avatar.jpg" alt="Avatar" class="avatar"
+              style="border-radius: 50%; width: 30px; height: 30px;">
+
+            <div>
+              <h6 style=" color: white; margin: 0;">Samuel Green</h6>
+
+              <p style="font-size: small; color: hsl(206, 6%, 79%); font-weight: 100;">Available to Walk</p>
+            </div>
+          </div>
+        </header>
+
+        <div class="container-2"
+          style="background-color: hsl(270, 20%, 96%); padding-top: 15px; font-size: 11px; color: hsl(276, 55%, 52%); padding-bottom: 70px;">
+
+          <p>That sounds great. I’d be happy to discuss more.</p>
+
+          <p>Could you send over some pictures of your dog, please?</p>
+
+          <img src="./images/dog-image-1.jpg" alt="Dog" class="dog1" width="45" style="border-radius: 10px;">
+          <img src="./images/dog-image-2.jpg" alt="Dog" class="dog2" width="45" style="border-radius: 10px;">
+          <img src="./images/dog-image-3.jpg" alt="Dog" class="dog3" width="45" style="border-radius: 10px;">
+
+
+          <p style="background:#ede9fe; padding:10px; border-radius:12px; width:75%; margin-left:auto;">Here are a few
+            pictures. She’s a happy girl!</p>
+
+          <p style="background:#ede9fe; padding:10px; border-radius:12px; width:55%; margin-left:auto;">Can you make it?
+          </p>
+
+          <p style="background:#ede9fe; padding:10px; border-radius:12px; width:85%; color: hsl(276, 55%, 52%);">She
+            looks so happy! The time we discussed works. How long shall I take her out for?</p>
+
+          <div style="
+          background:linear-gradient(90deg,#d946ef,#9333ea);
+          color:white;
+          padding:12px;
+          border-radius:12px;
+          display:flex;
+          justify-content:space-between;
+          margin-bottom:10px;">
+            <span>30 minute walk</span>
+            <strong>$29</strong>
+          </div>
+
+          <div style="
+          background:linear-gradient(90deg,#d946ef,#9333ea);
+          color:white;
+          padding:12px;
+          border-radius:12px;
+          display:flex;
+          justify-content:space-between;">
+            <span>1 hour walk</span>
+            <strong>$49</strong>
+          </div>
+
+          <div style="
+        position:absolute;
+        bottom:15px;
+        left:15px;
+        right:15px;
+        display:flex;
+        gap:8px;">
+
+            <input type="text" placeholder="Type a message..." style="
+          flex:1;
+          padding:12px;
+          border:none;
+          border-radius:20px;
+          background:#f3f3f3;">
+
+            <button style="
+          width:40px;
+          border:none;
+          border-radius:50%;
+          background:#4c1d95;
+          color:white;">
+              ➜
+            </button>
+          </div>
+        </div>
       </div>
 
-    </header>
+      <div style="max-width:420px; z-index:2;">
+        <h1 style="color:hsl(271, 36%, 24%); font-size:52px;">Simple booking</h1>
 
+        <p style="color:hsl(206, 6%, 79%); font-size:20px; line-height:1.8;">
+          Stay in touch with our dog walkers through the chat interface.
+          This makes it easy to discuss arrangements and make bookings.
+          Once the walk has been completed you can rate your walker and
+          book again all through the chat.
+        </p>
+      </div>
+
+      <div style="
+      position:absolute;
+      right:-150px;
+      bottom:-100px;
+      width:450px;
+      height:450px;
+      background:#f3e8ff;
+      border-radius:50%;">
+      </div>
+
+    </div>
   </div>
-
-  <div class="container" style="background-color: hsl(270, 20%, 96%); ">
-    <p>That sounds great. I’d be happy to discuss more.</p>
-
-    <p>Could you send over some pictures of your dog, please?</p>
-
-    <img src="./images/dog-image-1.jpg" alt="Dog" class="dog" style="border-radius: 20px;">
-    <img src="./images/dog-image-2.jpg" alt="Dog" class="dog" style="border-radius: 20px;">
-    <img src="./images/dog-image-3.jpg" alt="Dog" class="dog" style="border-radius: 20px;">
-    <p>Here are a few pictures. She’s a happy girl!</p>
-
-    <p>Can you make it?</p>
-
-    <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
-
-    <p>30 minute walk
-      $29</p>
-
-    <p>1 hour walk
-      $49</p>
-
-    Type a message…
   </div>
-
-  <div class="container">
-    <h1 class="title" style="color: hsl(271, 36%, 24%);">Simple booking</h1>
-
-    <p class="info" style="color: hsl(206, 6%, 79%); font-weight: 400;">Stay in touch with our dog walkers through the
-      chat
-      interface. This makes it easy to
-      discuss arrangements and make bookings. Once the walk has been completed you can rate
-      your walker and book again all through the chat.</p>
-  </div>
-
 </body>
 
 </html>
